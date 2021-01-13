@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 30rem;
+    height: 68.75rem;
+    margin: 1rem auto;
+    box-shadow:5px 5px 10px 5px #ddd;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background:#F0F8FF ;
+
+}
+.card__img{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    background-color: #ddd;
+    padding: 0.5rem 0;
+}
+.card__img2{
+    margin-top: 1rem;
+}
+.card__info{
+    margin-top: 1.5rem;
+}
+.card__info__tittle{
+    font-size: 1.2rem;
+}
+.Card__info__paragraph{
+    margin-top: 1rem;
+    text-align: justify;
+}
+.card__btn{
+    width: 100%;
+    margin-top: 1.75rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background: orangered;
+    font-size: 1rem;
+    
+}
+.card__btn:hover{
+    background: blue;
+}
+.card__btn a{
+    text-decoration: none;
+    color: white;
+   
+}
